@@ -1,0 +1,39 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(119, 0, 255),
+    rgb(167, 0, 167)
+  );
+}
+table {
+  font-family: arial, sans-serif;
+  border-radius: 15px;
+  border-collapse: collapse;
+  width: 60%;
+  background-color: white;
+}
+th {
+  background-color: rgb(49, 46, 54);
+  color: white;
+}
+td {
+  color: dimgray;
+}
+td,
+th {
+  text-align: left;
+  padding: 15px 25px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.right {
+  text-align: right;
+}
+.container {
+  margin: 10px;
+}
+.center {
+    position: fixed;
+  }
