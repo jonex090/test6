@@ -4,6 +4,12 @@ body {
     rgb(119, 0, 255),
     rgb(167, 0, 167)
   );
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 table {
   font-family: arial, sans-serif;
@@ -11,6 +17,7 @@ table {
   border-collapse: collapse;
   width: 60%;
   background-color: white;
+  
 }
 th {
   background-color: rgb(49, 46, 54);
@@ -34,6 +41,3 @@ tr:nth-child(even) {
 .container {
   margin: 10px;
 }
-.center {
-    position: fixed;
-  }
